@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Guatemala</string>
+    <string name="guate_info">
+        \nGuatemala, es el Corazón del Mundo Maya.
+        \nViva, mágica, mística y ancestral.
+        \nSu historia se remonta a cuatro mil años, cuando emergió la civilización maya,
+        \ncuyo legado perdura hoy en día con las tradiciones y cultura de su gente.
+
+        \n\nGuatemala es un país de extraordinaria
+        \nriqueza cultural y natural y con una
+        \nubicación geográfica privilegiada.
+        \nLas distancias de lugar a lugar son cortas,
+        \nlo que permite visitar varias regiones en un mismo viaje.
+
+        \n\nEs un país único, de aventura, inolvidable,
+        \nentre su pasado y presente,
+        \nademás de la diversidad de actividades
+        \nque ofrece al visitante.
+        \nConocido como el país de la eterna primavera,
+        \ngoza de un clima agradable que
+        \npermite visitarlo en cualquier época del año.\n
+    </string>
+    <string name="rio_dulce">Rio Dulce</string>
+    <string name="semuc_champey">Semuc Champey</string>
+    <string name="xocomil">Xocomil</string>
+    <string name="nombre">Nombre</string>
+    <string name="ingrese_su_nombre">Ingrese su nombre</string>
+    <string name="guatemala">Guatemala</string>
+    <string name="xocomil_phrase">
+        Considerado uno de
+        \nlos más innovadores
+        \ny atractivos parques
+        \nde Latinoamérica.\n</string>
+    <string name="secum_champey_phrase">
+        Donde el río
+        \nse esconde
+    </string>
+    <string name="rio_phrase">
+        Refugio para
+        \ndiversas aves
+        \nnativas y
+        \nmigratorias
+    </string>
+    <string name="xocomil_info">
+        Bienvenido al paraíso de la Fiesta en el Agua,
+        \nParque Acuático Xocomil es el lugar perfecto
+        \npara disfrutar de los más impresionantes juegos
+        \nacuáticos en medio de una exuberante vegetación
+        \ny estilo arquitectónico maya.
+
+        \nOfrece modernas instalaciones como toboganes,
+        \npiscinas de olas, ríos artificiales,
+        \nrestaurantes y kioscos; comodidades y
+        \ncalidad de clase mundial.
+
+        \nCuenta con los siguientes servicios:
+        \nalquiler de chalecos salvavidas,
+        \nalquiler de lockers, primeros auxilios,
+        \nvestidores y duchas, alquiler de carruajes,
+        \ncajero automático y parqueo exclusivo entre otros.
+
+        \nEl Parque Acuático Xocomil forma parte del IRTRA,
+        \ninstitución el cual brinda servicios de
+        \nhospedaje, alimentación y recreación.\n</string>
+    <string name="semuc_champey_info">
+        El Parque Nacional Semuc Champey es un paraíso
+        \nnatural que se encuentra localizado en Cobán,
+        \nAlta Verapaz, muy próximo geográficamente al
+        \nParque Nacional Grutas de Lanquín, en la
+        \nRepública de Guatemala.
+
+        \nEn idioma q’eqchi’ significa “donde el río
+        \nse esconde“, debido a que en uno de los extremos
+        \nse puede observar cómo el caudaloso río Cahabón
+        \nse interna en un caverna de piedra caliza,
+        \nen donde pasa por debajo de las pozas.
+
+        \nEl lugar es un atractivo turístico del departamento
+        \nde Alta Verapaz y de la República de Guatemala.
+        \nSe encuentra en un valle con laderas de alta
+        \npendiente, bordeado por un borde tropical
+        \ncon una gran variedad de flora.\n</string>
+    <string name="rio_dulce_info">
+        El Río Dulce se encuentra en el departamento de
+        \nIzabal, entre el Lago de Izabal y la Bahía de Amatique.
+        \nDe alrededor de 43 kilómetros de largo, el Río
+        \nDulce es la puerta de entrada al Mar Caribe.
+
+        \nEl cañón en la desembocadura del río sobre la
+        \nbahía ofrece una belleza escénica singular por su
+        \nvegetación y por ser refugio para diversas aves
+        \nnativas y migratorias. Para recorrer los 16 kilómetros
+        \nque distan entre el golfete y el mar, las aguas del río
+        \nse introducen por un enorme cañón que separa las
+        \nmontañas donde altas paredes de rocas calizas con
+        \nexuberante vegetación hacen del recorrido una aventura.
+        \nEste río tiene una profundidad de 30 a 50 metros, y
+        \nun ancho de aproximadamente de 200 metros.
+        \nDurante el recorrido se podrán apreciar cayos
+        \ne islotes de diferente tamaño.\n </string>
+    <string name="xocomil_title">Xocomil</string>
+    <string name="semuc_title">Semuc Champey</string>
+    <string name="rio_title">Rio Dulce</string>
+    <string name="title_activity_touristic_places">TouristicPlaces</string>
+</resources>
