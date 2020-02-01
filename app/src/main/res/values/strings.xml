@@ -151,4 +151,6 @@
     <string name="semuc_title">Semuc Champey</string>
     <string name="rio_title">Rio Dulce</string>
     <string name="title_activity_touristic_places">TouristicPlaces</string>
+    <string name="CommentButton">Comentar</string>
+    <string name="commentHint">Agrega tu comentario</string>
 </resources>

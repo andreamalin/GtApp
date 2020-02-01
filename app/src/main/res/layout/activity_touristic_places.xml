@@ -21,7 +21,7 @@
         android:padding="@dimen/padding_regular"
         android:screenOrientation="portrait"
         android:singleLine="true"
-        tools:context=".TouristicPlaces"
+        tools:context=".Models.TouristicPlaces"
         tools:layout_editor_absoluteY="1dp">
 
         <TextView
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
             android:onClick="comment"
-            android:text="Comentar"
+            android:text="@string/CommentButton"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.339"
@@ -57,7 +57,7 @@
             android:layout_height="49dp"
             android:layout_marginBottom="24dp"
             android:ems="10"
-            android:hint="Agrega tu comentario"
+            android:hint="@string/commentHint"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

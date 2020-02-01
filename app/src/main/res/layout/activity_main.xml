@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:screenOrientation="portrait"
-        tools:context=".MainActivity">
+        tools:context=".Activities.MainActivity">
 
         <ImageView
             android:id="@+id/imageView"
@@ -75,7 +75,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="185dp"
             android:text="@string/nombre"
-            app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+            app:layout_constraintBottom_toTopOf="@+id/scrollViewMain"
             app:layout_constraintEnd_toStartOf="@+id/name_value"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -91,7 +91,7 @@
             android:hint="@string/ingrese_su_nombre"
             android:inputType="textPersonName"
             android:textSize="14sp"
-            app:layout_constraintBottom_toTopOf="@+id/scrollVi"
+            app:layout_constraintBottom_toTopOf="@+id/scrollViewMain"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.763"
             app:layout_constraintStart_toStartOf="parent"
