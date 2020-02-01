@@ -17,22 +17,21 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="729dp"
         android:padding="@dimen/padding_regular"
+        android:screenOrientation="portrait"
         android:singleLine="true"
-        tools:context=".TouristicPlaces">
+        tools:context=".TouristicPlaces"
+        tools:layout_editor_absoluteY="1dp">
 
         <TextView
-            android:id="@+id/article_heading"
+            android:id="@+id/touristicName"
+            style="@style/TitleStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
-            android:gravity="center"
-            android:padding="@dimen/padding_regular"
             android:text="@{placeName}"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
             android:textColor="@android:color/white"
-            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
@@ -40,62 +39,66 @@
 
         <Button
             android:id="@+id/submitComment"
+            style="@style/ButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="24dp"
+            android:onClick="comment"
             android:text="Comentar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/comment" />
+            app:layout_constraintHorizontal_bias="0.339"
+            app:layout_constraintStart_toEndOf="@+id/comment"
+            app:layout_constraintTop_toBottomOf="@+id/scrollViewInfo" />
 
         <EditText
             android:id="@+id/comment"
             android:layout_width="241dp"
             android:layout_height="49dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="24dp"
             android:ems="10"
             android:hint="Agrega tu comentario"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.07"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="0.123"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollViewInfo" />
 
         <ScrollView
-            android:layout_width="402dp"
-            android:layout_height="428dp"
-            android:layout_marginTop="16dp"
+            android:id="@+id/scrollViewInfo"
+            android:layout_width="363dp"
+            android:layout_height="444dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="100dp"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/article_heading"
-            app:layout_constraintVertical_bias="0.13">
+            app:layout_constraintTop_toBottomOf="@+id/touristicName"
+            app:layout_constraintVertical_bias="0.0">
 
             <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="576dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:padding="@dimen/padding_regular">
 
                 <TextView
-                    android:id="@+id/gttouristicname"
-                    android:layout_width="99dp"
-                    android:layout_height="fill_parent"
-                    android:gravity="top"
-                    android:padding="@dimen/padding_regular"
+                    android:id="@+id/touristicPhrase"
+                    style="@style/SubtitleStyle"
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent"
                     android:text="@{placePhrase}"
-                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
 
                 <TextView
                     android:id="@+id/gttouristicinfo"
+                    style="@style/TextStyle"
                     android:layout_width="261dp"
-                    android:layout_height="fill_parent"
-                    android:gravity="center"
-                    android:lineSpacingExtra="5sp"
+                    android:layout_height="576dp"
                     android:text="@{placeInfo}"
                     android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
             </LinearLayout>

@@ -42,16 +42,23 @@ class MainActivity : AppCompatActivity() {
     fun xocomilInfo(view: View) {
         val intent = Intent(this, TouristicPlaces::class.java)
         intent.putExtra("ActualInfo", "Xocomil") //Sending what info actually show
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) //closing recent activity
+        finish() //finishing this activity
         startActivity(intent)   //Starting next activity
     }
     fun secumChampeyInfo(view: View) {
         val intent = Intent(this, TouristicPlaces::class.java)
         intent.putExtra("ActualInfo", "Semuc Champey") //Sending what info actually show
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) //closing recent activity
+        finish() //finishing this activity
         startActivity(intent)   //Starting next activity
     }
     fun rioDulceInfo(view: View) {
         val intent = Intent(this, TouristicPlaces::class.java)
         intent.putExtra("ActualInfo", "Rio Dulce") //Sending what info actually show
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) //closing recent activity
+
+        finish() //finishing this activity
         startActivity(intent)   //Starting next activity
     }
 }
